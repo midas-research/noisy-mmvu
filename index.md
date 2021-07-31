@@ -69,8 +69,8 @@ provided.
 ## About The Dataset
 
 We are releasing two splits: 100k and 25k, along with its meta data.
-- 100k Split: [Videos](#) (Compressed Size: , Uncompressed Size: 1.4TB), [Metadata](https://drive.google.com/file/d/1f81Q-N7DY21wFenS1ThbgO7kWpWGJseb/view?usp=sharing), [Tags](https://drive.google.com/file/d/11uSVC3dw9Om7bT25hC_pqh7WPNRBQMXW/view?usp=sharing), [Features](#)
-- 25k Split: [Videos](#) (Compressed Size: , Uncompressed Size: 425GB), [Metadata](https://drive.google.com/file/d/1y_QP0Vm4KKCaTSTiY3MrX347Fs14kZ1o/view?usp=sharing), [Tags](https://drive.google.com/file/d/1grVNqoR1MobJe0vWYe77zSdbdyYVvHMP/view?usp=sharing), [Features](#)
+- 100k Split: Videos, [Metadata](https://drive.google.com/file/d/1f81Q-N7DY21wFenS1ThbgO7kWpWGJseb/view?usp=sharing), [Tags](https://drive.google.com/file/d/11uSVC3dw9Om7bT25hC_pqh7WPNRBQMXW/view?usp=sharing), Features
+- 25k Split: Videos, [Metadata](https://drive.google.com/file/d/1y_QP0Vm4KKCaTSTiY3MrX347Fs14kZ1o/view?usp=sharing), [Tags](https://drive.google.com/file/d/1grVNqoR1MobJe0vWYe77zSdbdyYVvHMP/view?usp=sharing), Features
 
 Note:
 - Tags json file contains tags associated with each video, as the main metadata file only contains tag IDs.
