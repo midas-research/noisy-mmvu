@@ -8,3 +8,4 @@ script: script/cibuild
 sudo: required
 before_install:
   - sudo update-ca-certificates
+
