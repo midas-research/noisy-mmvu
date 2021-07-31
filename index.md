@@ -110,10 +110,10 @@ The submission links will be up soon.
 
 <div style="display: flex">
   <div style="width:22.5%">
-    <a href="https://www.crcv.ucf.edu/person/mubarak-shah/">
+    <a href="https://scholar.google.com/citations?user=p8gsO3gAAAAJ&hl=en&oi=ao">
     <img alt="Mubarak Shah" src="pics/mubarak.jpg">
     </a><br>
-    <a href="https://www.crcv.ucf.edu/person/mubarak-shah/">Mubarak Shah</a><br>
+    <a href="https://scholar.google.com/citations?user=p8gsO3gAAAAJ&hl=en&oi=ao">Mubarak Shah</a><br>
     University of Central Florida (UCF)
   </div>
   
@@ -144,10 +144,10 @@ The submission links will be up soon.
   </div>
   
   <div style="width:22.5%">
-    <a href="https://www.crcv.ucf.edu/person/rawat/">
+    <a href="https://scholar.google.com/citations?hl=en&user=D_JvEcwAAAAJ">
     <img alt="Yogesh Rawat" src="pics/yogesh.jpg">
     </a><br>
-  <a href="https://www.crcv.ucf.edu/person/rawat/">Yogesh Rawat</a><br>
+  <a href="https://scholar.google.com/citations?hl=en&user=D_JvEcwAAAAJ">Yogesh Rawat</a><br>
     University of Central Florida (UCF)
   </div>
 </div>
@@ -179,10 +179,10 @@ The submission links will be up soon.
   </div>
   
   <div style="width:22.5%">
-    <a href="https://www.linkedin.com/in/shruti-vyas-42605b70/">
+    <a href="https://scholar.google.com/citations?hl=en&user=15YqUQUAAAAJ">
     <img alt="Shruti Vyas" src="pics/shruti.jpg">
     </a><br>
-  <a href="https://www.linkedin.com/in/shruti-vyas-42605b70/">Shruti Vyas</a><br>
+  <a href="https://scholar.google.com/citations?hl=en&user=15YqUQUAAAAJ">Shruti Vyas</a><br>
     Center for Research in Computer Vision
     University of Central Florida
   </div>
@@ -202,10 +202,10 @@ The submission links will be up soon.
   </div>
   
   <div style="width:22.5%">
-    <a href="https://www.linkedin.com/in/aayush-jung-rana-5893385b/">
+    <a href="https://scholar.google.com/citations?hl=en&user=oo4zihgAAAAJ">
     <img alt="Aayush Rana" src="pics/aayush.jpeg">
     </a><br>
-  <a href="https://www.linkedin.com/in/aayush-jung-rana-5893385b/">Aayush Rana</a><br>
+  <a href="https://scholar.google.com/citations?hl=en&user=oo4zihgAAAAJ">Aayush Rana</a><br>
     Center for Research in Computer Vision
     University of Central Florida
   </div>
@@ -216,10 +216,10 @@ The submission links will be up soon.
 
 <div style="display: flex">
   <div style="width:22.5%">
-    <a href="https://www.linkedin.com/in/raj-aaryaman-p-4b3a70101">
+    <a href="https://cyborg.nitrkl.ac.in/mainprofile.php?userid=137">
     <img alt="Raj Aaryaman Patra" src="pics/raj.jpg">
     </a><br>
-    <a href="https://www.linkedin.com/in/raj-aaryaman-p-4b3a70101">Raj Aryaman Patra</a><br>
+    <a href="https://cyborg.nitrkl.ac.in/mainprofile.php?userid=137">Raj Aryaman Patra</a><br>
     National Institute of Technology Rourkela
   </div>
   
@@ -227,9 +227,9 @@ The submission links will be up soon.
   </div>
   
   <div style="width:22.5%">
-    <a href="https://www.linkedin.com/in/harshal-desai-863027147">
+    <a href="https://github.com/harshaldesai01">
     <img alt="Harshal Desai" src="pics/harshal.jpg">
     </a><br>
-  <a href="https://www.linkedin.com/in/harshal-desai-863027147">Harshal Desai</a><br>
+  <a href="https://github.com/harshaldesai01">Harshal Desai</a><br>
     National Institute of Technology Jamshedpur
   </div>

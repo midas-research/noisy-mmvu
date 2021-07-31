@@ -4,8 +4,3 @@ rvm: 2.6
 
 install: script/bootstrap
 script: script/cibuild
-
-sudo: required
-before_install:
-  - sudo update-ca-certificates
-
