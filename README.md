@@ -7,11 +7,10 @@ significantly in the last decade, the same has not been replicated in the video 
 images, understanding videos has proven to be difficult due to the added complexities of
 extra dimension and complicated sequence of motions. One of the major obstacle in learning
 better techniques that can understand complex actions in videos is the sheer lack of large
-scale annotated data. Large annotated datasets such as ImageNet [9] and Open Image [20]
-have propelled research in image understanding. The issue with doing this for videos is the
+scale annotated data. Large annotated datasets such as ImageNet and Open Image have propelled research in image understanding. The issue with doing this for videos is the
 massive cost of annotating millions of videos, which is why only a handful of large scale
-video datasets have been produced such as Kinetics 400/600/700 [18, 6, 7], AVA [15] and
-Youtube8M [5]. An alternative to annotating such large video datasets is to accumulate the
+video datasets have been produced such as Kinetics 400/600/700, AVA and
+Youtube8M. An alternative to annotating such large video datasets is to accumulate the
 data from the web using specific search queries. However, this automatic annotation comes
 at a cost of variable noise in the data and annotation. As such, there is an ever growing need
 to generate better techniques for video action understanding based on such noisy datasets
@@ -65,28 +64,32 @@ provided.
 
 ## About The Dataset
 
-We plan to release the Noisy-Actions-2M dataset to the public in this grand challenge. To
-make the challenge realistic, we will provide a small scale version containing approximately
-100, 000 videos for training, from our originally collected dataset of 2M videos. This will
-include the following meta information: (Weak) class labels, title, description, comments and
-tags. Around 39, 000 of these videos have geo-location information. The samples will have
+We are releasing two splits: 100k and 25k, along with its meta data.
+
+- 100k Split: [Videos](#) (Compressed Size: , Uncompressed Size: 1.4TB), [Metadata](https://drive.google.com/file/d/1f81Q-N7DY21wFenS1ThbgO7kWpWGJseb/view?usp=sharing), [Tags](https://drive.google.com/file/d/11uSVC3dw9Om7bT25hC_pqh7WPNRBQMXW/view?usp=sharing), [Features](#)
+- 25k Split: [Videos](#) (Compressed Size: , Uncompressed Size: 425GB), [Metadata](https://drive.google.com/file/d/1y_QP0Vm4KKCaTSTiY3MrX347Fs14kZ1o/view?usp=sharing), [Tags](https://drive.google.com/file/d/1grVNqoR1MobJe0vWYe77zSdbdyYVvHMP/view?usp=sharing), [Features](#)
+
+Note:
+
+- Tags json file contains tags associated with each video, as the main metadata file only contains tag IDs.
+- Files were compressed using bzip2.
+
+The metadata file will include the following meta information: (Weak) class labels (Concepts), title, description, comments and
+tags. Around 39,000 of these videos have geo-location information. The samples will have
 multi-labels with average number of labels per video as 6.825 and all examples cover roughly
 7000 labels. Each sample also has on an average 11.97 tags assigned to it, with the total
 number of tags being 1.4 million in the whole dataset. The average number of comments
-per video is 5.57. We will also provide a mini-noisy-action subset which has around 25K
-videos covering around 5000 action labels. This will ensure the participation from interested
-researchers with limited computational resources. The evaluation of task 1 will be done on
-the test set of UCF-101 [28] and the task 2 will be evaluated on the test set of MSR-VTT
-[34]. We will also provide features for videos in the 25K and the 100K split, extracted using
-4R(2+1)D-d network trained on the Kinetics [18] dataset. More details of Noisy-Actions-2M
-is provided in the supplementary dataset documentation.
+per video is 5.57.
+The 25K split covers around 5000 action labels. This split is intended for interested
+researchers with limited computational resources, or to benchmark your methods before running on the bigger split. The evaluation of task 1 will be done on the test set of UCF-101 [28] and the task 2 will be evaluated on the test set of MSR-VTT
+[34]. We will also provide features for videos in the 25K and the 100K split, extracted using R(2+1)D-d network trained on the Kinetics [18] dataset.
 
 ## Important dates
 
-- Paper submission: <strong>July 30th, 2021</strong>
-- Author Notification: <strong>August 26th, 2021</strong>
-- Camera-Ready: <strong>September 2nd, 2021</strong>
-- Workshop: <strong>October XX, 2021</strong>
+- Challenge Starts: <strong>August, 2021</strong>
+- Evaluation Starts: <strong>September, 2021 </strong>
+- Paper Submission: <strong>1st October, 2021</strong>
+- Notification to Authors: <strong>15th October, 2021</strong>
 
 All deadlines are at midnight(23:59) anywhere on Earth.
 
@@ -94,35 +97,20 @@ All deadlines are at midnight(23:59) anywhere on Earth.
 
 We use the same formatting template as ACM Multimedia 2021. Submissions can be of varying length from 4 to 8 pages, plus additional pages for the reference pages. There is no distinction between long and short papers. All papers will undergo the same review process and review period. All contributions must be submitted through CMT.
 
-Use the following link: [https://cmt3.research.microsoft.com/ACMMM2021/](https://cmt3.research.microsoft.com/ACMMM2021/)
-Select the track: “1st International Workshop on Trustworthy AI for Multimedia Computing”.
-The accepted workshop papers will be published in the ACM Digital Library.
+Submission links for papers will be up soon.
 
-## Schedule
+## Leaderboard
 
-| Time  | Event                        |
-| ----- | ---------------------------- |
-| 9:00  | Opening remarks              |
-| 9:10  | Invited talk 1               |
-| 9:45  | Invited talk 2               |
-| 10:20 | Invited talk 3               |
-| 10:55 | Invited talk 4               |
-| 11:30 | Invited talk 5               |
-| 12:05 | Lunch break                  |
-| 14:00 | Invited talk 6               |
-| 14:30 | Oral 1                       |
-| 15:00 | Oral 2                       |
-| 15:30 | Oral 3                       |
-| 15:45 | Poster Session and tea break |
+The submission links will be up soon.
 
 ## Organizers
 
 <div style="display: flex">
   <div style="width:22.5%">
-    <a href="http://people.rennes.inria.fr/Teddy.Furon/website/Welcome.html">
-    <img alt="Mubarak Shah" src="pics/teddy2.jpeg">
+    <a href="https://www.crcv.ucf.edu/person/mubarak-shah/">
+    <img alt="Mubarak Shah" src="pics/mubarak.jpg" width="100" height="100">
     </a><br>
-    <a href="http://people.rennes.inria.fr/Teddy.Furon/website/Welcome.html">Mubarak Shah</a><br>
+    <a href="https://www.crcv.ucf.edu/person/mubarak-shah/">Mubarak Shah</a><br>
     University of Central Florida (UCF)
   </div>
   
@@ -130,10 +118,10 @@ The accepted workshop papers will be published in the ACM Digital Library.
   </div>
   
   <div style="width:22.5%">
-    <a href="http://www.cs.ucf.edu/~liujg/">
-    <img alt="Mohan S Kankanhalli" src="pics/jingen2.jpg">
+    <a href="https://www.comp.nus.edu.sg/~mohan/">
+    <img alt="Mohan S Kankanhalli" src="pics/mohan.jpg" width="100" height="100">
     </a><br>
-  <a href="http://www.cs.ucf.edu/~liujg/">Mohan S Kankanhalli</a><br>
+  <a href="https://www.comp.nus.edu.sg/~mohan/">Mohan S Kankanhalli</a><br>
     National University of Singapore 
   </div>
  
@@ -142,10 +130,10 @@ The accepted workshop papers will be published in the ACM Digital Library.
   </div>
   
   <div style="width:22.5%">
-    <a href="https://www.crcv.ucf.edu/person/rawat/">
-    <img alt="Shin’ichi Satoh" src="pics/rawat.jpg">
+    <a href="http://research.nii.ac.jp/~satoh/index.html">
+    <img alt="Shin’ichi Satoh" src="pics/shinchi.jpg" width="100" height="100">
     </a><br>
-  <a href="https://www.crcv.ucf.edu/person/rawat/">Shin’ichi Satoh</a><br>
+  <a href="http://research.nii.ac.jp/~satoh/index.html">Shin’ichi Satoh</a><br>
     National Institute of Informatics
   </div>
 
@@ -154,7 +142,7 @@ The accepted workshop papers will be published in the ACM Digital Library.
   
   <div style="width:22.5%">
     <a href="https://www.crcv.ucf.edu/person/rawat/">
-    <img alt="Yogesh Rawat" src="pics/rawat.jpg">
+    <img alt="Yogesh Rawat" src="pics/yogesh.jpg" width="100" height="100">
     </a><br>
   <a href="https://www.crcv.ucf.edu/person/rawat/">Yogesh Rawat</a><br>
     University of Central Florida (UCF)
@@ -166,10 +154,10 @@ The accepted workshop papers will be published in the ACM Digital Library.
 
 <div style="display: flex">
   <div style="width:22.5%">
-    <a href="http://wzhang.fun/">
-    <img alt="Rajiv Ratn Shah" src="pics/wei2.jpg">
+    <a href="http://midas.iiitd.edu.in/team/rajiv-ratn-shah.html">
+    <img alt="Rajiv Ratn Shah" src="pics/rajiv.jpeg" width="100" height="100">
     </a><br>
-    <a href="http://wzhang.fun/">Rajiv Ratn Shah</a><br>
+    <a href="http://midas.iiitd.edu.in/team/rajiv-ratn-shah.html">Rajiv Ratn Shah</a><br>
     Indraprastha Institute of Information Technology Delhi
   </div>
 
@@ -177,10 +165,10 @@ The accepted workshop papers will be published in the ACM Digital Library.
   </div>
   
   <div style="width:22.5%">
-    <a href="https://www-users.cs.umn.edu/~qzhao/index.html">
-    <img alt="Roger Zimmermann" src="pics/qi2.jpg">
+    <a href="https://www.comp.nus.edu.sg/~rogerz/">
+    <img alt="Roger Zimmermann" src="pics/roger.png" width="100" height="100">
     </a><br>
-  <a href="https://www-users.cs.umn.edu/~qzhao/index.html">Roger Zimmermann</a><br>
+  <a href="https://www.comp.nus.edu.sg/~rogerz/">Roger Zimmermann</a><br>
     National University of Singapore
   </div>
 
@@ -188,10 +176,10 @@ The accepted workshop papers will be published in the ACM Digital Library.
   </div>
   
   <div style="width:22.5%">
-    <a href="https://www-users.cs.umn.edu/~qzhao/index.html">
-    <img alt="Shruti Vyas" src="pics/qi2.jpg">
+    <a href="https://www.linkedin.com/in/shruti-vyas-42605b70/">
+    <img alt="Shruti Vyas" src="pics/shruti.jpg" width="100" height="100">
     </a><br>
-  <a href="https://www-users.cs.umn.edu/~qzhao/index.html">Shruti Vyas</a><br>
+  <a href="https://www.linkedin.com/in/shruti-vyas-42605b70/">Shruti Vyas</a><br>
     Center for Research in Computer Vision
     University of Central Florida
   </div>
@@ -200,10 +188,10 @@ The accepted workshop papers will be published in the ACM Digital Library.
   </div>
   
   <div style="width:22.5%">
-    <a href="https://www-users.cs.umn.edu/~qzhao/index.html">
-    <img alt="Mohit Sharma" src="pics/qi2.jpg">
+    <a href="https://mohitsharma29.github.io/about/">
+    <img alt="Mohit Sharma" src="pics/mohit.jpg" width="100" height="100">
     </a><br>
-  <a href="https://www-users.cs.umn.edu/~qzhao/index.html">Mohit Sharma</a><br>
+  <a href="https://mohitsharma29.github.io/about/">Mohit Sharma</a><br>
     Indraprastha Institute of Information Technology Delhi
   </div>
 
@@ -211,10 +199,10 @@ The accepted workshop papers will be published in the ACM Digital Library.
   </div>
   
   <div style="width:22.5%">
-    <a href="https://www-users.cs.umn.edu/~qzhao/index.html">
-    <img alt="Aayush Rana" src="pics/qi2.jpg">
+    <a href="https://www.linkedin.com/in/aayush-jung-rana-5893385b/">
+    <img alt="Aayush Rana" src="pics/aayush.jpeg" width="100" height="100">
     </a><br>
-  <a href="https://www-users.cs.umn.edu/~qzhao/index.html">Aayush Rana</a><br>
+  <a href="https://www.linkedin.com/in/aayush-jung-rana-5893385b/">Aayush Rana</a><br>
     Center for Research in Computer Vision
     University of Central Florida
   </div>
@@ -226,7 +214,7 @@ The accepted workshop papers will be published in the ACM Digital Library.
 <div style="display: flex">
   <div style="width:22.5%">
     <a href="https://www.linkedin.com/in/raj-aaryaman-p-4b3a70101">
-    <img alt="Raj Aaryaman Patra" src="pics/teddy2.jpeg">
+    <img alt="Raj Aaryaman Patra" src="pics/raj.jpg" width="100" height="100">
     </a><br>
     <a href="https://www.linkedin.com/in/raj-aaryaman-p-4b3a70101">Raj Aryaman Patra</a><br>
     National Institute of Technology Rourkela
@@ -237,8 +225,9 @@ The accepted workshop papers will be published in the ACM Digital Library.
   
   <div style="width:22.5%">
     <a href="https://www.linkedin.com/in/harshal-desai-863027147">
-    <img alt="Harshal Desai" src="pics/Harshal.jpg">
+    <img alt="Harshal Desai" src="pics/harshal.jpg" width="100" height="100">
     </a><br>
   <a href="https://www.linkedin.com/in/harshal-desai-863027147">Harshal Desai</a><br>
     National Institute of Technology Jamshedpur
   </div>
+</div>
