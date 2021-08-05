@@ -33,7 +33,6 @@ We invite researchers and participants to demonstrate effectiveness of learning 
 
 ## About The Dataset
 
-<div style="text-align: justify">
 We are releasing two splits: 100k and 25k, along with its meta data.
 
 - Full Split: [Metadata](https://drive.google.com/file/d/1Zj0Lf4JYUc_8pnHyKe23ctAWWn3JCR9q/view?usp=sharing), [Tags](https://drive.google.com/file/d/12Hc1bUrTxzB9mKDwJ2bT4HFtx4AqKucZ/view?usp=sharing)
@@ -46,8 +45,8 @@ Note:
 - Tags json file contains tags associated with each video, as the main metadata file only contains tag IDs.
 - Files are compressed using bzip2.
 
+<div style="text-align: justify">
 The metadata file will include the following meta information: (Weak) class labels (Concepts), title, description, comments and tags. Around 39,000 of these videos have geo-location information. The samples will have multi-labels with average number of labels per video as 6.825 and all examples cover roughly 7000 labels. Each sample also has on an average 11.97 tags assigned to it, with the total number of tags being 1.4 million in the whole dataset. The average number of comments per video is 5.57. The 25K split covers around 5000 action labels. This split is intended for interested researchers with limited computational resources, or to benchmark your methods before running on the bigger split. The evaluation of task 1 will be done on the test set of UCF-101 and the task 2 will be evaluated on the test set of MSR-VTT. We will also provide features for videos in the 25K and the 100K split, extracted using R(2+1)D-d network trained on the Kinetics dataset.
-
 </div>
 
 ## Important dates
@@ -80,7 +79,7 @@ The submission links will be up soon.
     <img alt="Mubarak Shah" src="pics/mubarak.jpg" width="200" height="200" >
     </a><br>
     <a href="https://www.crcv.ucf.edu/person/mubarak-shah/">Mubarak Shah</a><br>
-    University of Central Florida (UCF) </br>
+    University of Central Florida (UCF) <br>
   </div>
   
   <div style="width:3%">
@@ -91,7 +90,7 @@ The submission links will be up soon.
     <img alt="Mohan S Kankanhalli" src="pics/mohan.jpg" width="200" height="200">
     </a><br>
   <a href="https://www.comp.nus.edu.sg/~mohan/">Mohan S Kankanhalli</a><br>
-    National University of Singapore  </br>
+    National University of Singapore  <br>
   </div>
  
   
@@ -103,11 +102,11 @@ The submission links will be up soon.
     <img alt="Shin’ichi Satoh" src="pics/shinchi.jpg" width="200" height="200">
     </a><br>
   <a href="http://research.nii.ac.jp/~satoh/index.html">Shin’ichi Satoh</a><br>
-    National Institute of Informatics </br>
+    National Institute of Informatics <br>
   </div>
 
 </div>
-</br> </br>
+<br> <br>
 
 <div style="display: flex">
 
@@ -143,7 +142,7 @@ The submission links will be up soon.
   </div>
 
 </div>
-</br> </br>
+<br> <br>
 
 <div style="display: flex">
  <div style="width:30%">
@@ -180,7 +179,7 @@ The submission links will be up soon.
   </div>
 
 </div>
-</br> </br>
+<br>
 
 ## Volunteers
 
