@@ -35,8 +35,8 @@ available to them.
 In this task, the participants will have to
 pre-train their methods using the noisy action
 dataset, and then transfer this learning to a smaller target dataset. We will use UCF-101
-dataset as target in this challenge. The participants can use the UCF-101 dataset itself for
-fine-tuning the pre-trained models. The final evaluation will be done on the UCF-101 test set. The transfer learning will demonstrate how generalized the visual understanding technique
+dataset as target in this challenge. The participants can use the [UCF-101](https://www.crcv.ucf.edu/data/UCF101.php) dataset itself for
+fine-tuning the pre-trained models. The final evaluation will be done on the [UCF-101](https://www.crcv.ucf.edu/data/UCF101.php) test set. The transfer learning will demonstrate how generalized the visual understanding technique
 is and how reasonable the noisy dataset is for visual understanding tasks. There will be two
 sets for algorithmic development and training at scale, 25k and 100k splits.
 
@@ -55,7 +55,7 @@ the meta data) to perform noisy visual representation learning. The goal of this
 generate robust learning methods that can generate meaningful visual representations for
 text to video retrieval. The participants are free to utilize any combination of the modalities
 made available to them. The participants will finally test the representation quality by fine
-tuning on the MSR-VTT dataset. The final evaluation will be done on its test set. Similar
+tuning on the [MSR-VTT](https://www.microsoft.com/en-us/research/publication/msr-vtt-a-large-video-description-dataset-for-bridging-video-and-language/) dataset. The final evaluation will be done on its test set. Similar
 to the first task, there will be two different splits which the participants can utilize.
 
 ### Task 3: Multi-modal Noisy Video Understanding
@@ -70,7 +70,7 @@ provided.
 
 We are releasing two splits: 100k and 25k, along with its meta data.
 - Full Split: [Metadata](https://drive.google.com/file/d/1Zj0Lf4JYUc_8pnHyKe23ctAWWn3JCR9q/view?usp=sharing), [Tags](https://drive.google.com/file/d/12Hc1bUrTxzB9mKDwJ2bT4HFtx4AqKucZ/view?usp=sharing)
-- 100k Split: [Videos](#) (Compressed Size:1.3TB , Uncompressed Size: 1.4TB), [Metadata](https://drive.google.com/file/d/1f81Q-N7DY21wFenS1ThbgO7kWpWGJseb/view?usp=sharing), [Tags](https://drive.google.com/file/d/11uSVC3dw9Om7bT25hC_pqh7WPNRBQMXW/view?usp=sharing), [Features](https://drive.google.com/file/d/19qIUb4iOprVm-M3cI7d_5fJzTnzArepO/view?usp=sharing)
+- 100k Split: [Videos](https://drive.google.com/file/d/19_ddJZkgTVDNC2Hwp4ZWKhV4hfF2N6zv/view?usp=sharing) (Compressed Size:1.3TB , Uncompressed Size: 1.4TB), [Metadata](https://drive.google.com/file/d/1f81Q-N7DY21wFenS1ThbgO7kWpWGJseb/view?usp=sharing), [Tags](https://drive.google.com/file/d/11uSVC3dw9Om7bT25hC_pqh7WPNRBQMXW/view?usp=sharing), [Features](https://drive.google.com/file/d/19qIUb4iOprVm-M3cI7d_5fJzTnzArepO/view?usp=sharing)
 - 25k Split: [Videos](https://drive.google.com/file/d/1frvv3JXRoiTn7hubMTl5BQDdVIcY9XO9/view?usp=sharing) (Compressed Size: 420GB, Uncompressed Size: 425GB), [Metadata](https://drive.google.com/file/d/1y_QP0Vm4KKCaTSTiY3MrX347Fs14kZ1o/view?usp=sharing), [Tags](https://drive.google.com/file/d/1grVNqoR1MobJe0vWYe77zSdbdyYVvHMP/view?usp=sharing), [Features](https://drive.google.com/file/d/1gpwLppZ_noSHxFTXvXDH1zWK27q-7e2z/view?usp=sharing)
 
 Note:
