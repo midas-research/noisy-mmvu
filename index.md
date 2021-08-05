@@ -22,7 +22,7 @@ recognition. The participants are free to utilize any combination of the modalit
 available to them.
 In this task, the participants will have to
 pre-train their methods using the noisy action
-dataset, and then transfer this learning to a smaller target dataset. We will use UCF-101
+dataset, and then transfer this learning to a smaller target dataset. We will use [UCF-101](https://www.crcv.ucf.edu/data/UCF101.php)
 dataset as target in this challenge. The participants can use the [UCF-101](https://www.crcv.ucf.edu/data/UCF101.php) dataset itself for
 fine-tuning the pre-trained models. The final evaluation will be done on the [UCF-101](https://www.crcv.ucf.edu/data/UCF101.php) test set. The transfer learning will demonstrate how generalized the visual understanding technique
 is and how reasonable the noisy dataset is for visual understanding tasks. There will be two
@@ -49,7 +49,7 @@ to the first task, there will be two different splits which the participants can
 ### Task 3: Multi-modal Noisy Video Understanding
 
 <div style="text-align: justify">
-We invite researchers and participants to demonstrate effectiveness of learning from multi- modal noisy datasets for tasks in video understanding other than those mentioned above. This task will not be counted towards the leaderboard statistics, however novel and extraordinary approaches will receive a special mention. Participants can use any split of the dataset provided.
+We invite researchers and participants to demonstrate effectiveness of learning from multi- modal noisy datasets for tasks in video understanding other than those mentioned above. This task will not be counted towards the leaderboard statistics, however novel and extraordinary approaches will receive a special mention. Participants can use any split of the dataset provided. For this task, participants can submit a paper which will be reviewed.
 </div>
 
 ## About The Dataset
@@ -69,6 +69,14 @@ Note:
 <div style="text-align: justify">
 The metadata file will include the following meta information: (Weak) class labels (Concepts), title, description, comments and tags. Around 39,000 of these videos have geo-location information. The samples will have multi-labels with average number of labels per video as 6.825 and all examples cover roughly 7000 labels. Each sample also has on an average 11.97 tags assigned to it, with the total number of tags being 1.4 million in the whole dataset. The average number of comments per video is 5.57. The 25K split covers around 5000 action labels. This split is intended for interested researchers with limited computational resources, or to benchmark your methods before running on the bigger split. The evaluation of task 1 will be done on the test set of UCF-101 and the task 2 will be evaluated on the test set of MSR-VTT. We will also provide features for videos in the 25K and the 100K split, extracted using R(2+1)D-d network trained on the Kinetics dataset.
 </div>
+
+## Evaluation
+
+For task 1, we will use accuracy, which is essentially whether the ground truth label matches
+the predicted class. For task 2, we will use recall at rank K (R@K), median rank (M dR)
+and mean rank(MnR). For R@K, we look at the percentage of samples for which the correct
+result for found in the top K results. M dR is the median of the rank of the first relevant
+result. Similarly, MnR is the mean of the rank of the first relevant result.
 
 ## Important dates
 
